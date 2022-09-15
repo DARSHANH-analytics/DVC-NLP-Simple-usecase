@@ -5,7 +5,7 @@ artifacts:
   PREPARED_DATA: prepared
   TRAIN_DATA: train.tsv
   TEST_DATA: test.tsv
-  
+
 source_data_dirs:
-  data_dir: data
+  data_dir: External_Data
   data_file: data.xml
