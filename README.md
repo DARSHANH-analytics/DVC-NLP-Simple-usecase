@@ -1,6 +1,17 @@
 # dvc-project-template
 DVC project template
 
+## Reference repository:
+* [official reference repo](https://github.com/iterative/example-get-started)
+
+* [DVC STUDIO](https://studio.iterative.ai/)
+
+* [MY View](https://studio.iterative.ai/user/c17hawke/views/DVC-NLP-Simple-usecase-3xolnsi26a)
+
+* [Bag of Words- Krish Naik](https://youtu.be/D2V1okCEsiE)
+
+* [TF-IDF- Krish Naik](https://youtu.be/D2V1okCEsiE)
+
 ## STEPS -
 
 ### STEP 01- Create a repository by using template repository
@@ -19,6 +30,10 @@ conda activate ./env
 OR
 ```bash
 source activate ./env
+```
+### one shot create and activate environment
+```bash 
+conda create --prefix ./env python=3.7 -y && source activate ./env 
 ```
 
 ### STEP 04- install the requirements
