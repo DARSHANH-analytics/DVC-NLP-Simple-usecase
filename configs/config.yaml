@@ -9,3 +9,7 @@ artifacts:
 source_data_dirs:
   data_dir: External_Data
   data_file: data.xml
+
+  FEATURIZED_DATA: features
+  FEATURIZED_OUT_TRAIN: train.pkl
+  FEATURIZED_OUT_TEST: test.pkl  
